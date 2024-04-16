@@ -18,7 +18,6 @@ public class InputReader : ScriptableObject, IPlayerActions
             controls = new Controls();
             controls.Player.SetCallbacks(this);
         }
-
         controls.Player.Enable();
     }
 
